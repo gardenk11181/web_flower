@@ -1,0 +1,34 @@
+.header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header  svg {
+    margin-right: 5%;
+}
+
+.header svg:hover{
+    cursor: pointer;
+}
+
+.header .sentence {
+    width: 90%;
+    margin-right: 5%;
+}
+
+.sentence .sentence__phrase {
+    font-size: 4em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+
+}
+.sentence .sentence__recommend {
+    font-size: 1.5em;
+    color: grey;
+
+}
+
