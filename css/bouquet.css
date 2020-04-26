@@ -47,3 +47,47 @@
     right: 20em;
     top: 3em;
 }
+
+.bouquet__flower .tag {
+    font-family: 'Nanum Pen Script', cursive;
+    color: rgb(90, 59, 0);
+    width: 200px;
+    height:100px;
+    font-size: 30px;
+    border: 2px dashed brown;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.bouquet__flower i:hover .tag {
+    transition: .5s;
+    opacity:1;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.message-left {
+    position: relative;
+    top:0.8em;
+    right:1.5em;
+}
+
+.message-top {
+    position: relative;
+    bottom: 8em;
+    right: 5.7em;
+}
+
+.message-right {
+    position: relative;
+    bottom: 10em;
+    left: 2em;
+}
+
+.message-bottom {
+    position: relative;
+    top: 0em;
+    left: 4em;
+}
