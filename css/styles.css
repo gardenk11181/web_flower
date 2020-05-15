@@ -14,29 +14,16 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Nanum Pen Script', cursive;
-    padding:10px;
-    background-image: url(../image/bouquet_background.jpg);
-    background-size: cover;
 }
 
 
-.wrapper {
-    width: 100%;
-    height: 98vh;
-    border: 2px solid black;
+.main {
+    width: 90vw;
+    height: 100vh;
     background-color: rgba( 255, 255, 255, 0.85 );
 }
 
-.link-to-map {
-    position: fixed;
-    bottom:30px;
-    right:30px;
-    font-size: 2em;
-    padding-bottom: 5px;
-    border-bottom: 2px dashed black;
-
-}
-
-.link-to-map:hover {
-    cursor: pointer;
+.progress-bar {
+    width: 10vw;
+    background-color: silver;
 }
