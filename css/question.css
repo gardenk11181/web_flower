@@ -1,0 +1,133 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 500;
+    color:rgba(0,0,0,0.75)
+}
+
+.main {
+    width: 75vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__question {
+    margin-top: 75px;
+    font-size: 50px;
+}
+
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.btn__home {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -4px 4px 4px 0px rgba(0,0,0,0.62) inset,
+    4px -4px 4px 0px rgba(255,255,255,1) inset;
+}
+
+.options :nth-child(1) {
+    position: relative;
+    left: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+.options :nth-child(2) {
+    position: relative;
+    bottom: 50px;
+    left:30px
+}
+
+.options :nth-child(3) {
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+}
+
+.options :nth-child(4) {
+    position: relative;
+    bottom: 50px;
+    left:90px;
+}
+
+.options :nth-child(5) {
+    position: relative;
+    top: 120px;
+    right: 80px;
+}
+
+.options :nth-child(6) {
+    position: relative;
+    top: 120px;
+    right: 400px;
+}
+
+.progress-bar {
+    width: 25vw;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color:lightsalmon;
+}
+
+li > span {
+    color:rgba(0,0,0,0.75);
+}
+
+li:nth-child(1) {
+    list-style-type: disc;
+}
+
+.home {
+    margin-right: 10px;
+    margin-top: 10px;
+    position:fixed;
+    right:0px;
+    font-size: 50px;
+}
