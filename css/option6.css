@@ -1,0 +1,83 @@
+@import 'question.css';
+
+.main__question i {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+
+.btn__home {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    font-size: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -4px 4px 4px 0px rgba(0,0,0,0.62) inset,
+    4px -4px 4px 0px rgba(255,255,255,1) inset;
+}
+
+.options :nth-child(1) {
+    position: relative;
+    left: 360px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
+
+.options :nth-child(2) {
+    position: relative;
+    bottom: 110px;
+    left:170px
+}
+
+.options :nth-child(3) {
+    position: relative;
+    bottom: 110px;
+    left: 180px;
+}
+
+.options :nth-child(4) {
+    position: relative;
+    left:130px;
+}
+
+.options :nth-child(5) {
+    position: relative;
+    bottom: -110px;
+    right: 60px;
+}
+
+.options :nth-child(6) {
+    position: relative;
+    top: 110px;
+    right: 310px;
+}
+
+.options :nth-child(7) {
+    position: relative;
+    right: 500px;
+}
+
+li:nth-child(4) {
+    list-style-type: disc;
+}
