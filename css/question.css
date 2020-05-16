@@ -1,5 +1,5 @@
 @import 'reset.css';
-@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&family=Noto+Serif+KR:wght@500&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 .wrapper {
     display: flex;
     flex-direction: row;
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Do Hyeon', sans-serif;
     font-weight: 500;
     color:rgba(0,0,0,0.75)
 }
@@ -24,8 +24,17 @@
 }
 
 .main__question {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 75px;
     font-size: 50px;
+
+}
+
+.options {
+    width: 60vw;
 }
 
 .progress-bar {
@@ -34,6 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Jua', sans-serif;
 }
 
 ul {
@@ -41,7 +51,7 @@ ul {
 }
 
 li {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
     color:lightsalmon;
 }
@@ -57,3 +67,13 @@ li > span {
     right:0px;
     font-size: 50px;
 }
+
+.options {
+    font-family: 'Jua', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+

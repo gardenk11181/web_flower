@@ -1,16 +1,17 @@
 .header {
-    padding: 30px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.header  svg {
+.header  a {
     margin-right: 5%;
+    font-size: 50px;
 }
 
-.header svg:hover{
+.header a:hover{
     cursor: pointer;
 }
 
@@ -20,14 +21,14 @@
 }
 
 .sentence .sentence__phrase {
-    font-size: 4em;
+    font-size: 50px;
     padding-bottom: 5px;
     border-bottom: 2px solid black;
     margin-bottom: 10px;
 
 }
 .sentence .sentence__recommend {
-    font-size: 1.5em;
+    font-size: 30px;
     color: grey;
 
 }

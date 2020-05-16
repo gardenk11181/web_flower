@@ -1,9 +1,5 @@
 @import 'question.css';
 
-.main__question {
-    justify-content: flex-start;
-}
-
 .main__question i {
     margin-right: 30px;
 }
@@ -35,4 +31,8 @@
 
     margin-left: 20px;
     margin-right: 20px;
+}
+
+li:nth-child(2) {
+    list-style-type: disc;
 }

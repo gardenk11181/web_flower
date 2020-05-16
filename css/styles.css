@@ -1,19 +1,17 @@
 @import 'reset.css';
-@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&family=Noto+Serif+KR:wght@500&display=swap');
 @import 'header.css';
 @import 'bouquet.css';
+@import 'progress_bar.css';
 
 * {
     box-sizing: border-box;
-    
 }
 
 body {
-    min-width: 800px;
-    min-height: 800px;
     display: flex;
-    justify-content: center;
-    font-family: 'Nanum Pen Script', cursive;
+    justify-content: flex-start;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 
@@ -23,7 +21,3 @@ body {
     background-color: rgba( 255, 255, 255, 0.85 );
 }
 
-.progress-bar {
-    width: 10vw;
-    background-color: silver;
-}
