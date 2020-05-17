@@ -5,11 +5,22 @@
     height: 100vh;
     background-color: #ffe6e6;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     padding-top: 30px;
 }
 
 .progress-bar i {
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.map {
+    margin-top: 20px;
+    max-width: 40px;
+}
+
+.question-home {
+    margin-top: 20px;
+    max-width: 40px;
 }
