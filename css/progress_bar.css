@@ -1,7 +1,9 @@
+
+
 .progress-bar {
     position: fixed;
     right: 0px;
-    width: 10vw;
+    width: 8vw;
     height: 100vh;
     background-color: #ffe6e6;
     display: flex;
@@ -9,10 +11,14 @@
     justify-content: flex-start;
     align-items: center;
     padding-top: 30px;
+    color: white;
+
+    min-height: min-content;
 }
 
 .progress-bar i {
     font-size: 40px;
+    
 }
 
 .map {
@@ -23,4 +29,17 @@
 .question-home {
     margin-top: 20px;
     max-width: 40px;
+    margin-bottom: 10vh;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid silver;
+    margin-bottom: 15px;
+}
+
+.filled {
+    background-color: black;
 }

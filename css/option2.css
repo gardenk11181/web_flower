@@ -16,17 +16,18 @@
     margin-bottom: 50px;
 }
 
+.options img {
+    max-width: 60px;
+}
+
 .option {
     font-size: 50px;
     width: 180px;
     height: 180px;
     border-radius: 90px;
-    background-color: #ffe6e6;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: -4px 4px 4px 0px rgba(0,0,0,0.62) inset,
-    4px -4px 4px 0px rgba(255,255,255,1) inset;
 
     margin-right: 50px;
     margin-left: 50px;
