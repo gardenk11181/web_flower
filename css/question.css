@@ -10,7 +10,7 @@
     flex-direction: row;
     font-family: 'Do Hyeon', sans-serif;
     font-weight: 500;
-    color:rgba(0, 0, 0, 0.80);
+    color:rgba(0, 0, 0, 0.75);
 }
 
 .main {
@@ -42,21 +42,55 @@
 
 .options {
     width: 60vw;
+    position: relative;
+    z-index: 1;
+}
+
+
+.slider, .slider::after {
+    transition: all .3s;
 }
 
 .option {
-    background-color: white;
+    background: none;
     border: 3px solid pink;
+    overflow: hidden;
+    position :relative;
 }
+
+.slider:before,
+.slider:after {
+    position: absolute;
+    background: pink;
+    content:'';
+    z-index: -1;
+}
+
+
+.slider:hover {
+    color: white !important;
+}
+
+.slider::after {
+    height: 100%;
+    left: -80% ;
+    top:0 ;
+    transform: skew(30deg);
+    transition-duration: .6s;
+    transform-origin: top left;
+    width: 0;
+}
+
+.slider:hover::after {
+    height: 100%;
+    width: 170%;
+}
+
 
 .option:visited {
-    color:rgba(0, 0, 0, 0.80);
+    color: rgba(0, 0, 0, 0.75)
 }
 
-.option:hover{
-    color: white;
-    background-color: pink;
-}
 
 
 /* question의 progress-bar */

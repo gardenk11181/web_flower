@@ -36,13 +36,38 @@
     width: max-content;
 }
 
+.dabal__flower-box {
+    position: absolute;
+    
+    width: 120px;
+    height: 70px;
+    border: 2px dashed black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    opacity: 0;
+    transition-duration: .3s;
+}
+
+.flower1 {
+    top: -50px;
+    left: 90px;
+}
+
+.dabal__flower-box .flower__name {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
 .dabal__flower:nth-child(1) {
     top: 0px;
     left: 200px;
 }
 
-.dabal__flower:nth-child(1):hover {
-    
+.dabal__flower:nth-child(1):hover .dabal__flower-box {
+    opacity: 1;
 }
 
 .dabal__flower:nth-child(2) {
@@ -50,7 +75,15 @@
     left: 250px;
 }
 
+.dabal__flower:nth-child(2):hover .dabal__flower-box {
+    opacity: 1;
+}
+
 .dabal__flower:nth-child(3) {
     top: -280px;
     left: 100px;
+}
+
+.dabal__flower:nth-child(3):hover .dabal__flower-box {
+    opacity: 1;
 }
