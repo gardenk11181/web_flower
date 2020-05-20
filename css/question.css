@@ -10,13 +10,15 @@
     flex-direction: row;
     font-family: 'Do Hyeon', sans-serif;
     font-weight: 500;
-    color:rgba(0,0,0,0.75)
+    color:rgba(0, 0, 0, 0.80);
 }
 
 .main {
     width: 75vw;
     height: 100vh;
     background-color: white;
+    background-image: url(../dabal_icon/grid_original.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -47,16 +49,22 @@
     border: 3px solid pink;
 }
 
+.option:visited {
+    color:rgba(0, 0, 0, 0.80);
+}
+
 .option:hover{
     color: white;
     background-color: pink;
 }
+
 
 /* question의 progress-bar */
 
 .progress-bar {
     width: 25vw;
     background-color: #ffe6e6;
+    background-image: url(../dabal_icon/ui_panel.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +78,7 @@ ul {
 li {
     font-size: 30px;
     margin-bottom: 10px;
-    color:silver;
+    color:grey;
 }
 
 .selected {
@@ -84,7 +92,7 @@ li {
 
 li > span {
     color: rgb(172,146,120);
-    color: silver;
+    color: grey;
     /* color: lightgray */
 }
 

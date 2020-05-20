@@ -1,4 +1,5 @@
 .header {
+    width: 100%;
     padding: 50px;
     display: flex;
     justify-content: space-between;
@@ -23,9 +24,10 @@
 
 .sentence .sentence__phrase {
     font-size: 50px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid black;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    /* padding-bottom: 5px; */
+    /* border-bottom: 2px solid black;
+    margin-bottom: 10px; */
 
 }
 .sentence .sentence__recommend {

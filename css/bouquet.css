@@ -4,91 +4,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
 }
 
-.bouquet .bouquet__flower {
-    width: 200px;
-    height: 100px;
+.bouquet-dabal {
+    width: 550px;
+    height: 550px;
+    background-image: url(../dabal_icon/dabal.png);
+    background-size: 550px;
+    background-repeat: no-repeat;
 }
 
-.bouquet__flower i {
-    font-size: 10em;
+.bouquet-message {
+    width: 400px;
+    height: 400px;
+    background-image: url(../dabal_icon/postit.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px 100px 70px;
+    font-size: 25px;
 }
 
-.bouquet__flower:hover {
-    cursor: pointer;
+.bouquet-dabal .dabal__flower img {
+    max-width: 170px;
 }
 
-.bouquet .bouquet__flower:nth-child(1) {
+.dabal__flower {
     position: relative;
-    font-size: 0.8em;
-    color:darkkhaki;
-    left: 6em;
+    width: max-content;
 }
 
-.bouquet .bouquet__flower:nth-child(2) {
-    position: relative;
-    color:darkorange;
-    font-size: 1.3em;
-    bottom: 8em;
+.dabal__flower:nth-child(1) {
+    top: 0px;
+    left: 200px;
 }
 
-.bouquet .bouquet__flower:nth-child(3) {
-    position: relative;
-    color:darkslateblue;
-    font-size: 1em;
-    bottom: 5em;
+.dabal__flower:nth-child(1):hover {
+    
 }
 
-.bouquet .bouquet__flower:nth-child(4) {
-    position: relative;
-    color:brown;
-    font-size: 1em;
-    right: 20em;
-    top: 3em;
+.dabal__flower:nth-child(2) {
+    top: -70px;
+    left: 250px;
 }
 
-.bouquet__flower .tag {
-    font-family: 'Nanum Pen Script', cursive;
-    color: rgb(90, 59, 0);
-    width: 200px;
-    height:100px;
-    font-size: 30px;
-    border: 2px dashed brown;
-    border-radius: 10px;
-    padding: 10px;
-    opacity: 0;
-    transition: .5s;
-}
-
-.bouquet__flower i:hover .tag {
-    transition: .5s;
-    opacity:1;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-
-.message-left {
-    position: relative;
-    top:0.8em;
-    right:1.5em;
-}
-
-.message-top {
-    position: relative;
-    bottom: 8em;
-    right: 5.7em;
-}
-
-.message-right {
-    position: relative;
-    bottom: 10em;
-    left: 2em;
-}
-
-.message-bottom {
-    position: relative;
-    top: 0em;
-    left: 4em;
+.dabal__flower:nth-child(3) {
+    top: -280px;
+    left: 100px;
 }

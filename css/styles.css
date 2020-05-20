@@ -8,17 +8,32 @@
     box-sizing: border-box;
 }
 
+html {
+    min-width: 1000px;
+    width: 100%;
+    height: 100%;
+}
+
 body {
     display: flex;
     justify-content: flex-start;
     font-family: 'Do Hyeon', sans-serif;
+    overflow: hidden;
+    color:rgba(0, 0, 0, 0.85);
 }
 
 
 .main {
+    min-width: 1000px;
+    min-height: 650px;
     width: 92vw;
     height: 100vh;
-    background-color: rgba( 255, 255, 255, 0.85 );
+    background-image: url(../dabal_icon/grid_original.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 

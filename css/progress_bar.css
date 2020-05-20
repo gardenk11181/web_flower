@@ -1,11 +1,13 @@
-
+/* progress-bar of bouquet & list page */
 
 .progress-bar {
+    box-sizing: border-box;
     position: fixed;
     right: 0px;
     width: 8vw;
-    height: 100vh;
-    background-color: #ffe6e6;
+    height: 100%;
+    /* background-color: #ffe6e6; */
+    background-image: url(../dabal_icon/ui_panel.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,12 +15,16 @@
     padding-top: 30px;
     color: white;
 
-    min-height: min-content;
+    min-height: 650px;
 }
 
 .progress-bar i {
     font-size: 40px;
     
+}
+
+.progress-bar a:visited {
+    color: rgba(0, 0, 0, 0.80);
 }
 
 .map {
