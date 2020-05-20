@@ -19,25 +19,32 @@ body {
     background-image: url(../dabal_icon/grid_original.png);
     background-size: cover;
     font-family: 'Do Hyeon', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main__header {
+    width: 100%;
+    margin-left: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-left: 2vw;
-    margin-right: 30vw;
     font-size: 50px;
-    margin-top: 50px;
+    padding: 30px;
 }
 
+
 .main__header img {
-    width: 120px;
+    width: 80px;
 }
 
 .main__header-title {
     margin-left: 50px;
-}
+} 
+
 
 .main__lists {
     width: 100%;
