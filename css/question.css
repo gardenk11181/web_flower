@@ -148,3 +148,12 @@ a {
     cursor: pointer;
 }
 
+.logo {
+    position:fixed;
+    margin-right: 8vw;
+    margin-bottom: 20px;
+    right: 0px;
+    bottom: 0px;
+    width: 90px;
+}
+

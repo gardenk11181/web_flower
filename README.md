@@ -12,3 +12,6 @@ Question Page Added
 
 ## 2020/05/17
 List Page Added & Sample Link Added
+
+## 2020/05/21
+Icon Updated & UI Updated & Anim Added
