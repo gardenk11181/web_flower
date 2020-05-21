@@ -27,6 +27,7 @@ body {
 }
 
 .main__header {
+
     width: 100%;
     margin-left: 50px;
     display: flex;
@@ -57,7 +58,7 @@ body {
 
 .list__row {
     width: 100%;
-    height: 150px;
+    height: 250px;
     padding-right: 50px;
     padding-left: 50px;
     display: flex;
@@ -76,8 +77,24 @@ body {
     max-width: 170px;
 }
 
+.flower-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 70px;
+    background-image: url(../dabal_icon/label\(gray\).png);
+    background-size: cover;
+    padding-bottom: 6px;
+}
+
 .list__column .flower__name {
     font-size: 20px;
     margin-bottom: 5px;
+}
+
+.flower-box .flower__message {
+    font-size: 15px;
 }
 

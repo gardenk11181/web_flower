@@ -14,6 +14,7 @@
 }
 
 .main {
+    min-width: 700px;
     width: 75vw;
     height: 100vh;
     background-color: white;
@@ -96,6 +97,7 @@
 /* question의 progress-bar */
 
 .progress-bar {
+    min-width: 250px;
     width: 25vw;
     background-color: #ffe6e6;
     background-image: url(../dabal_icon/ui_panel.png);
@@ -136,7 +138,7 @@ li > span {
     margin-top: 20px;
     position:fixed;
     right:0px;
-    font-size: 50px;
+    max-width: 80px;
 }
 
 .options {
@@ -150,10 +152,10 @@ a {
 
 .logo {
     position:fixed;
-    margin-right: 8vw;
+    margin-right: 20px;
     margin-bottom: 20px;
     right: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 120px;
 }
 

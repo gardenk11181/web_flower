@@ -38,10 +38,10 @@
 
 .dabal__flower-box {
     position: absolute;
-    
-    width: 120px;
+    background-image: url(../dabal_icon/label\(gray\).png);
+    background-size: cover;
+    width: 200px;
     height: 70px;
-    border: 2px dashed black;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +54,15 @@
 .flower1 {
     top: -50px;
     left: 90px;
+}
+
+.flower2 {
+    top: 160px;
+}
+
+.flower3 {
+    top: 155px;
+    right: 40px;
 }
 
 .dabal__flower-box .flower__name {
