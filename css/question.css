@@ -65,6 +65,7 @@
     background: pink;
     content:'';
     z-index: -1;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 
@@ -92,7 +93,6 @@
     background-image: none;
     color: rgba(0, 0, 0, 0.75)
 }
-
 
 
 /* question의 progress-bar */
