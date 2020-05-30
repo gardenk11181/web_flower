@@ -4,6 +4,8 @@
 @import 'bouquet.css';
 @import 'progress_bar.css';
 
+/* bouquet main */
+
 * {
     box-sizing: border-box;
 }

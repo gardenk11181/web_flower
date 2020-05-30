@@ -1,0 +1,143 @@
+body {
+    background-image: url("../dabal_icon/grid_original.png");
+    background-color: #cccccc;
+    background-size: 100%;
+}     
+* {
+    padding: 0;
+    margin: 0;
+}
+button, button::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+button {
+    background: none;
+    border: 3px solid pink;
+    border-radius: 50%;
+    color: black;
+    font-size: 1.3em;
+    margin: 1em auto;
+    padding: 2em 6em;
+    position: relative;
+    text-transform: uppercase;
+    height: 16em;
+}
+button::before, 
+button::after {
+    background: pink;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+button:hover {
+    color:white;
+}
+.button_home {
+    overflow: hidden;
+    /* font-family: 'Do Hyeon', sans-serif; */
+    font-family: 'Jua', sans-serif;
+}
+.button_home::after {
+    height: 100%;
+    left: -80%;
+    top: 0; 
+    transform: skew(30deg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    width: 0;
+}
+.button_home:hover:after {
+    height: 100%;
+    width: 170%;
+}
+.title {
+    position: relative;
+    left: 17.8em;
+    padding-top: 1em;
+    width: 50%;
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
+}
+p {
+    position: relative;
+    left: 38em;
+    padding: 1.5em 0 3em 0;
+    width: 50%;
+}
+.button_group {
+    position: fixed;
+    left: 25em;
+    top: 13em;
+    width: 75%;
+}
+.divider {
+    width: 8%;
+    /* height: auto;  */
+    display: inline-block;
+}
+/* h1 {
+    width: 75%;
+} */
+#word_logo {
+    position: absolute;
+    top: 2em;
+    left: 47em;
+    width: 9%;
+    height: 9%
+}
+img { 
+    position: absolute;
+    left: 43em;
+    top: 3%;
+    width: 2cm;
+    height: 2cm;
+}
+.navigator {
+    position: absolute;
+    float: right;
+    left: calc(100% - 3.5em);
+    background-image: url("../dabal_icon/ui_panel.png/");
+    height: 100%;
+    width: 3.5em;
+}
+.navi_icon {
+    position: absolute;
+    left: calc(100% - 3em);
+    top: 0.7em;
+    width: 2.5em;
+    height: 2.5em;
+    }
+#link {
+    top: 4em;
+}
+.top{
+    width: calc(100% - 3.5em);
+    height: 7em;
+    float: right;
+}
+body {
+    height: 40em;
+}
+.clearfix {
+    clear:both;
+}
+#question {
+    font-family: 'Jua', sans-serif;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 10cm;
+    top: 6.5em;
+    left: 32em;
+}
+.title {
+    width: 5cm;
+}
+#logo_navi {
+    position: absolute;
+    top: 7.5em;
+}

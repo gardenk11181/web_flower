@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DABAL</title>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("grid_original.png");
+            background-color: #cccccc;
+            background-size: 100%;
+        }     
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        button, button::after {
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        button {
+            background: none;
+            border: 3px solid pink;
+            border-radius: 50%;
+            color: black;
+            font-size: 1.3em;
+            margin: 1em auto;
+            padding: 2em 6em;
+            position: relative;
+            text-transform: uppercase;
+            height: 16em;
+        }
+        button::before, 
+        button::after {
+            background: pink;
+            content: '';
+            position: absolute;
+            z-index: -1;
+        }
+        button:hover {
+            color:white;
+        }
+        .button_home {
+            overflow: hidden;
+            /* font-family: 'Do Hyeon', sans-serif; */
+            font-family: 'Jua', sans-serif;
+        }
+        .button_home::after {
+            height: 100%;
+            left: -80%;
+            top: 0; 
+            transform: skew(30deg);
+            transition-duration: 0.6s;
+            transform-origin: top left;
+            width: 0;
+        }
+        .button_home:hover:after {
+            height: 100%;
+            width: 170%;
+        }
+        .title {
+            position: relative;
+            left: 17.8em;
+            padding-top: 1em;
+            width: 50%;
+            font-family: 'Jua', sans-serif;
+            font-size: 40px;
+        }
+        p {
+            position: relative;
+            left: 38em;
+            padding: 1.5em 0 3em 0;
+            width: 50%;
+        }
+        .button_group {
+            position: fixed;
+            left: 25em;
+            top: 13em;
+            width: 75%;
+        }
+        .divider {
+            width: 8%;
+            /* height: auto;  */
+            display: inline-block;
+        }
+        /* h1 {
+            width: 75%;
+        } */
+        #word_logo {
+            position: absolute;
+            top: 2em;
+            left: 47em;
+            width: 9%;
+            height: 9%
+        }
+        img { 
+            position: absolute;
+            left: 43em;
+            top: 3%;
+            width: 2cm;
+            height: 2cm;
+        }
+        .navigator {
+            position: absolute;
+            float: right;
+            left: calc(100% - 3.5em);
+            background-image: url("ui_panel.png");
+            height: 100%;
+            width: 3.5em;
+        }
+        .navi_icon {
+            position: absolute;
+            left: calc(100% - 3em);
+            top: 0.7em;
+            width: 2.5em;
+            height: 2.5em;
+            }
+        #link {
+            top: 4em;
+        }
+        .top{
+            width: calc(100% - 3.5em);
+            height: 7em;
+            float: right;
+        }
+        body {
+            height: 40em;
+        }
+        .clearfix {
+            clear:both;
+        }
+        #question {
+            font-family: 'Jua', sans-serif;
+            font-size: 19px;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            width: 10cm;
+            top: 6.5em;
+            left: 32em;
+        }
+        .title {
+            width: 5cm;
+        }
+        #logo_navi {
+            position: absolute;
+            top: 7.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="logo2.png" alt="logo" id="title">
+        <img src="word logo1.png" alt="word logo" id="word_logo">
+        <!-- <h1 class="title">DABAL</h1> -->
+    </div>
+
+    <div class="navigator">
+        <a href="https://map.naver.com/v5/?c=14139193.6935029,4517752.1016367,15,0,0,0,dh"><img src="map1.png" alt="map" class="navi_icon" id="map"></a>
+        <a href="http://yiflower.co.kr/?n_media=27758&n_query=%EC%98%A8%EB%9D%BC%EC%9D%B8%EA%BD%83%EC%A7%91&n_rank=15&n_ad_group=grp-m001-01-000002043351472&n_ad=nad-m001-01-000002043351472&n_keyword_id=nkw-m001-01-000002043351740&n_keyword=%EC%98%A8%EB%9D%BC%EC%9D%B8%EA%BD%83%EC%A7%91&n_campaign_type=1&NaPm=ct%3Dkagtomls%7Cci%3D0zC00036vansqxtD1f0V%7Ctr%3Dsa%7Chk%3Da82c17ab3e63fc45608e0d051482b19caa04f6f5"><img src="link1.png" alt="link to online flower shop" class="navi_icon" id="link"></a>
+        <a href="file:///C:/Users/wendy/Desktop/%EC%9B%B9%ED%94%84%EA%B0%9C%20HTML,%20CSS/homepage.html"><img src="logo3.png" alt="logo" class="navi_icon" id="logo_navi"></a>
+    </div>
+
+    <div class="statement">
+        <p id="question"><a href="file:///C:/Users/wendy/Desktop/%EC%9B%B9%ED%94%84%EA%B0%9C%20HTML,%20CSS/help.html" style="color:pink;">여기</a>를 누르시면 HELP 창으로 들어가실 수 있습니다</p>
+    </div>
+    
+    <div class="button_group">
+        <a href="https://gardenk11181.github.io/web_flower/question5.html"><button class="button_home">질문으로 추천</button></a>
+        <div class="divider"></div>
+        <a href="file:///C:/Users/wendy/Desktop/%EC%9B%B9%ED%94%84%EA%B0%9C%20HTML,%20CSS/search.html"><button class="button_home">키워드로 검색</button></a>
+    </div>
+
+</body>
+</html>

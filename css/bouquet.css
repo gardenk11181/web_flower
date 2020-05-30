@@ -96,3 +96,23 @@
 .dabal__flower:nth-child(3):hover .dabal__flower-box {
     opacity: 1;
 }
+
+.list-button {
+    width: 170px;
+    height: 70px;
+    background-image: url("../dabal_icon/label\(gray\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-right: 40px;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}

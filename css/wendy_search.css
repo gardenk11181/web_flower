@@ -1,0 +1,127 @@
+body {
+            background-image: url("../dabal_icon/grid_original.png");
+            background-color: #cccccc;
+            background-size: 100%;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        img { 
+            position: absolute;
+            left: 43em;
+            top: 3%;
+            width: 2cm;
+            height: 2cm;
+        }
+        .title {
+            position: relative;
+            left: 17.8em;
+            padding-top: 1em;
+            width: 50%;
+            font-family: 'Jua', sans-serif;
+            font-size: 40px;
+        }
+        .navigator {
+            position: absolute;
+            float: right;
+            left: calc(100% - 3.5em);
+            background-image: url("../dabal_icon/ui_panel.png");
+            height: 100%;
+            width: 3.5em;
+        }
+        .navi_icon {
+            position: absolute;
+            left: calc(100% - 3em);
+            top: 0.7em;
+            width: 2.5em;
+            height: 2.5em;
+            }
+        #link {
+            top: 4em;
+        }
+        .top{
+            width: calc(100% - 3.5em);
+            height: 7em;
+            float: right;
+        }
+        /* .title {
+            width: 5cm;
+        } */
+        #word_logo {
+            position: absolute;
+            top: 2em;
+            left: 47em;
+            width: 9%;
+            height: 9%
+        }
+        .body_search {
+            position: relative;
+            left: 35%;
+            top: 10em;
+            font-size: 1.1em;
+            width: 30em;
+        }
+        .search {
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+        .searchTerm {
+            width: 100%;
+            border: 3px solid pink;
+            border-right: none;
+            padding: 5px;
+            height: 35px; 
+            border-radius: 5px 0 0 5px;
+        }
+        .searchButton {
+            width: 50px;
+            height: 51px;
+            border: 1px solid pink;
+            background: pink;
+            border-radius: 0 5px 5px 0;
+        }
+        .wrap {
+            width:90%;
+            position: relative;
+            top: 2.2em;
+            left: 45%;
+            transform: translate(-50%, -50%);
+        }
+        .keyword {
+            height: 10em;
+            position: relative;
+            top: 1.5em;
+            font-size: 0.75em;
+        }
+        .sub_keyword {
+            padding-top: 0.6em;
+            font-family: 'Jua', sans-serif;
+        }
+        body {
+            height: 40em;
+        }
+        .clearfix {
+            clear:both;
+        }
+        #sub {
+            padding-right: 1.3em;
+        }
+        .jua {
+            font-family: 'Jua', sans-serif;
+        }
+        a:link {
+            color:pink;
+        }
+        #backspace {
+            position: absolute;
+            left: 7cm;
+            top: 1cm;
+            width:2cm;
+            height:1cm;
+        }
+        #logo_navi {
+            position: absolute;
+            top: 7.5em;
+        }

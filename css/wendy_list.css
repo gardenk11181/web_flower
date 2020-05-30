@@ -1,0 +1,367 @@
+body {
+    background-image: url("../dabal_icon/grid_original.png");
+    background-size: 100%;
+    background-color: #cccccc;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+img { 
+    position: absolute;
+    left: 43em;
+    top: 3%;
+    width: 2cm;
+    height: 2cm;
+}
+.title {
+    position: relative;
+    left: 17.8em;
+    padding-top: 1em;
+    width: 50%;
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
+}
+.navigator {
+    position: absolute;
+    float: right;
+    left: calc(100% - 3.5em);
+    background-image: url("../dabal_icon/ui_panel.png");
+    height: 100%;
+    width: 3.5em;
+}
+.navi_icon {
+    position: absolute;
+    left: calc(100% - 3em);
+    top: 0.7em;
+    width: 2.5em;
+    height: 2.5em;
+    }
+#link {
+    top: 4em;
+}
+.top{
+    width: calc(100% - 3.5em);
+    height: 7em;
+    float: right;
+}
+/* .title {
+    width: 5cm;
+} */
+#word_logo {
+    position: absolute;
+    top: 2em;
+    left: 47em;
+    width: 9%;
+    height: 9%
+}
+.clearfix {
+    clear:both;
+}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.searchTerm {
+    width: 100%;
+    border: 3px solid pink;
+    border-right: none;
+    padding: 5px;
+    height: 22px; 
+    border-radius: 5px 0 0 5px;
+}
+.searchButton {
+    width: 53px;
+    height: 38px;
+    border: 1px solid pink;
+    background: pink;
+    border-radius: 0 5px 5px 0;
+}
+.wrap {
+    width:20%;
+    position: relative;
+    top: 2.2em;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+#cart {
+    position: absolute; 
+    top: 17%;
+    left: 63%;
+    width: 1cm;
+    height: 1cm;
+}
+.search_domain {
+    height: 2cm;
+}
+.flower_list {
+    height: 15cm;
+}
+.flower {
+    width: 4.5cm;
+    height: 4.5cm;
+}
+#first {
+    position: relative;
+    left: 15em;
+}
+#second {
+    position: relative; 
+    left: 18em;
+}
+#third {
+    position: relative; 
+    left: 21em;
+}
+#fourth {
+    position: relative; 
+    left: 24em;
+}
+#fifth {
+    position: relative; 
+    left: 27em;
+}
+#sixth {
+    position: absolute;
+    top: 28em;
+    left: 15em;
+}
+#seventh {
+    position: absolute;
+    top: 28em;
+    left: 29em;
+}
+#eighth {
+    position: absolute;
+    top: 28em;
+    left: calc(29em +14em);
+}
+#nineth {
+    position: absolute;
+    top: 28em;
+    left: calc(29em + 14em + 14em);
+}
+#tenth {
+    position: absolute;
+    top: 28em;
+    left: calc(29em + 14em + 14em + 14em);
+}
+.text {
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+}
+#one {
+    position: absolute;
+    left: 16.3em;
+}
+#two {
+    position: absolute;
+    left: 32.5em;
+}
+#three {
+    position: absolute;
+    left: 45.5em;
+}
+#four {
+    position: absolute;
+    left: 60.3em;
+}
+#five {
+    position: absolute;
+    left: 70.5em;
+}
+#six {
+    position: absolute;
+    top: 38.5em;
+    left: 16.3em;
+}
+#seven {
+    position: absolute;
+    top: 38.5em;
+    left: 32.5em;
+}
+#eight {
+    position: absolute;
+    top: 38.5em;
+    left: 45.5em;
+}
+#nine {
+    position: absolute;
+    top: 38.5em;
+    left: 60.5em;
+}        
+#ten {
+    position: absolute;
+    top: 38.5em;
+    left: 70.5em;
+}
+/* .container {
+    position: relative;
+    width: 10cm;
+    height: 1cm;
+}
+.flower {
+    opacity: 1;
+    transition: .5s ease; 
+    backface-visibility: hidden; 
+} */
+/* .m1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m5 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m6 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m6 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m7 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m8 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m9 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.m10 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.flower_list:hover .flower {
+    opacity: 0.3;
+}
+.flower_list:hover .m1 {
+    opacity: 1;
+}
+.flower_list:hover .m2 {
+    opacity: 1;
+}
+.flower_list:hover .m3 {
+    opacity: 1;
+}
+.flower_list:hover .m4 {
+    opacity: 1;
+}
+.flower_list:hover .m5 {
+    opacity: 1;
+}
+.flower_list:hover .m6 {
+    opacity: 1;
+}
+.flower_list:hover .m7 {
+    opacity: 1;
+}
+.flower_list:hover .m8 {
+    opacity: 1;
+}
+.flower_list:hover .m9 {
+    opacity: 1;
+}
+.flower_list:hover .m10 {
+    opacity: 1;
+}
+.text {
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+} */
+#backspace {
+    position: absolute;
+    left: 7cm;
+    top: 1cm;
+    width:2cm;
+    height:1cm;
+}
+#logo_navi {
+    position: absolute;
+    top: 7.5em;
+}

@@ -1,0 +1,33 @@
+@import 'question.css';
+
+.main__question i {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+.wheel {
+    border: 3px pink solid;
+    border-radius: 50%;
+}
+
+.whatever {
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../dabal_icon/label\(gray\).png);
+    background-size: cover;
+    width: 160px;
+    height: 60px;
+}
