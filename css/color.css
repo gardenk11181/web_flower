@@ -13,7 +13,6 @@
     width: 100%;
     height: 500px;
     margin-bottom: 40px;
-    margin-left: 30px;
 }
 
 .wheel {
@@ -27,7 +26,9 @@
     justify-content: center;
     align-items: center;
     background-image: url(../dabal_icon/label\(gray\).png);
-    background-size: cover;
-    width: 160px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
     height: 60px;
 }
