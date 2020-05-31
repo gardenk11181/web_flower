@@ -6,6 +6,7 @@
 }
 
 .options {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,19 +16,31 @@
     margin-bottom: 40px;
 }
 
+.color-box {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    border: 2px solid pink;
+    top: 250px;
+    right:-50px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
 .wheel {
-    border: 3px pink solid;
+    border: 3px white solid;
     border-radius: 50%;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .whatever {
-    margin-top: 40px;
+    margin-top: 20px;
     display:flex;
     justify-content: center;
     align-items: center;
     background-image: url(../dabal_icon/label\(gray\).png);
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 170px;
     height: 60px;

@@ -1,0 +1,213 @@
+body {
+    background-image: url("../dabal_icon/grid_original.png");
+    background-color: #cccccc;
+    background-size: 100%;
+    font-family: 'Jua', sans-serif;
+}     
+* {
+    padding: 0;
+    margin: 0;
+}
+.title {
+    position: relative;
+    left: 17.8em;
+    padding-top: 1em;
+    width: 50%;
+    font-family: 'Jua', sans-serif;
+    font-size: 40px;
+}
+/* h1 {
+    width: 75%;
+} */
+#word_logo {
+    position: absolute;
+    top: 2em;
+    left: 47em;
+    width: 9%;
+    height: 9%
+}
+img { 
+    position: absolute;
+    left: 43em;
+    top: 3%;
+    width: 2cm;
+    height: 2cm;
+}
+.navigator {
+    position: absolute;
+    top: 0;
+    /* float: right; */
+    left: calc(100% - 3.5em);
+    background-image: url("../dabal_icon/ui_panel.png");
+    height: 100%;
+    width: 3.5em;
+}
+.navi_icon {
+    position: absolute;
+    left: calc(100% - 3em);
+    top: 0.7em;
+    width: 2.5em;
+    height: 2.5em;
+    }
+#link {
+    top: 4em;
+}
+.top{
+    width: calc(100% - 3.5em);
+    height: 7em;
+    float: right;
+}
+.title {
+    width: 5cm;
+}
+body {
+    height: 45em;
+}
+.clearfix {
+    clear:both;
+}
+/* .list {
+    width: 3cm;
+    height: 3cm;
+    background-color: lavender;
+    border-radius: 30%;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 5cm;
+    margin-bottom: 2cm;
+} */
+#one {
+    position: absolute;
+    left: 13.4em;
+    top: 10em;
+    width: 2.5cm;
+    height: 2.5cm;
+}
+/* #two {
+    position: absolute;
+    left: 33em;
+    top: 9em;
+    width: 2cm;
+    height: 2cm;
+} */
+#three {
+    position: absolute;
+    left: 43em;
+    top: 10em;
+    width: 2.5cm;
+    height: 2.5cm;
+}
+#four {
+    position: absolute;
+    left: 58em;
+    top: 11em;
+    width: 2.5cm;
+    height: 2cm;
+}
+#five {
+    position: absolute;
+    left: 73.5em;
+    top: 11em;
+    width: 2.1cm;
+    height: 2.1cm;
+}
+#six {
+    position: absolute;
+    left: 29em;
+    top: 11em;
+    width: 2cm;
+    height: 2cm;
+}
+#first {
+    position: absolute; 
+    top: 14em;
+    left: 12em;
+    font-size: 20px;
+}
+#second {
+    position: absolute; 
+    top: 14em;
+    left: 21.5em;
+    font-size: 20px;
+}
+#third {
+    position: absolute; 
+    top: 14.2em;
+    left: 35.3em;
+    font-size: 20px;
+}
+#fourth {
+    position: absolute; 
+    top: 14.2em;
+    left: 47.5em;
+    font-size: 20px;
+}
+#fifth {
+    position: absolute; 
+    top: 14em;
+    left: 58.3em;
+    font-size: 20px;
+}
+/* .explanation {
+    position: absolute;
+    left: 11em;
+    top:30em;
+    width: 60%;
+    height:80%;
+    font-size: 17px;
+} */
+#topic {
+    font-size: 20px;
+}
+#backspace {
+    position: absolute;
+    left: 7cm;
+    top: 1cm;
+    width:2cm;
+    height:1cm;
+}
+#textbox {
+    position: absolute;
+    top: 10cm;
+    left: 5cm;
+    width: 30cm;
+    height: 8cm;
+}
+.statement {
+    position: absolute;
+    top: 12.5cm;
+    left: 10cm
+}
+.label {
+    width: 5.3cm;
+    height: 1.8cm;
+}
+#la1 {
+    position: absolute;
+    left: 10.5em;
+    top: 16.5em;
+}
+#la2 {
+    position: absolute;
+    left: 25em;
+    top: 16.5em;
+}
+#la3 {
+    position: absolute;
+    left: 40em;
+    top: 16.5em;
+}
+#la4 {
+    position: absolute;
+    left: 55em;
+    top: 16.5em;
+}
+#la5 {
+    position: absolute;
+    left: 70em;
+    top: 16.5em;
+}
+#logo_navi {
+    position: absolute;
+    top: 7.5em;
+}
