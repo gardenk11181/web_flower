@@ -8,7 +8,7 @@ function handleGeoSuccess(position) {
         longitude: longitude
     };
     console.log(latitude);
-    window.location.href = 'https://map.naver.com/v5/?c=14139193.6935029,4517752.1016367,15,0,0,0,dh';
+    window.location.href = `https://map.naver.com/v5/search/꽃집?c=${longitude},${latitude},15,0,0,0,dh`;
 }
 
 function handleGeoError(){

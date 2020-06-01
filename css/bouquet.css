@@ -108,6 +108,11 @@
     align-items: center;
     padding-bottom: 10px;
     margin-right: 40px;
+    color: rgba(0,0,0,0.75)
+}
+
+.list-button:visited {
+    color: rgba(0,0,0,0.75)
 }
 
 .message-box {
