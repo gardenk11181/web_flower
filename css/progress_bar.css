@@ -39,12 +39,11 @@
 .cart {
     margin-top: 20px;
     max-width: 55px;
+    margin-bottom: 10vh;
 }
 
 .question-home {
-    margin-top: 20px;
     max-width: 55px;
-    margin-bottom: 10vh;
 }
 
 .circle:nth-child(1) {
