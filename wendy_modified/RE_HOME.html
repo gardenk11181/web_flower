@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap" rel="stylesheet">
+    <title>DABAL</title>
+    <style>
+        body{
+            background-image: url("grid_original.png");
+            background-size: 100%;
+            margin: auto;
+        }
+        .nav_bar{
+            background-image: url("ui_panel.png");
+            height: 47em;
+            width: 4em;
+            float: right;
+        }
+        .nav_icon{
+            height: 43px;
+            width: 43px;
+            padding-left: 15%;
+            padding-top: 15%;
+        }
+        .clearfix {
+            clear:both;
+        }
+        .logo_top{
+            padding-left: 41%;
+            padding-top: 2%;
+        }
+        #logo_p{
+            margin-bottom:0.5%;
+            margin-right:-2%;
+            height: 75px;
+        }
+        #logo_w{
+            height: 70px;
+        }
+        .wrap{
+            margin-left:18%;
+        }
+        button,button::after{
+            -webkit-transition: all 0.3s;
+            -moz-transiion: all 0.3s;
+            -o-transition: all 0.3s; 
+            transition: all 0.3s;
+        }
+        button{
+            background: none;
+            border: 3px solid pink;
+            border-radius: 50%;
+            font-family: 'Jua', sans-serif;
+            font-size:30px;
+            margin: 70px 40px;
+            padding: 160px 110px;
+            position: relative;
+        }
+        button::before, button::after{
+            background:pink;
+            content: '';
+            position:absolute;
+            z-index: -1;
+        }
+        button:hover{
+            color:white;
+        }
+        .button_ani{
+            overflow: hidden;
+        }
+        .button_ani::after{
+            height: 100%;
+            left: -100%;
+            top: 0; 
+            transform: skew(30deg);
+            transition-duration: 0.8s;
+            transform-origin: top left;
+            width: 0;
+        }
+        .button_ani:hover:after{
+            height: 100%;
+            width: 200%;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav_bar">
+        <a href="https://map.naver.com/v5/?c=14139193.6935029,4517752.1016367,15,0,0,0,dh"><img src="map1.png" alt="map" class="nav_icon"></a>
+        <a href="https://kukka.kr/event/flower-subscription/?utm_source=naver&utm_medium=sa&utm_campaign=main_pc&utm_term=%EA%BD%83%EC%A0%95%EA%B8%B0%EB%B0%B0%EB%8B%AC&utm_content=newflower&n_media=27758&n_query=%EA%BD%83%EC%A0%95%EA%B8%B0%EB%B0%B0%EB%8B%AC&n_rank=2&n_ad_group=grp-a001-01-000000011725048&n_ad=nad-a001-01-000000094726670&n_keyword_id=nkw-a001-01-000002156040166&n_keyword=%EA%BD%83%EC%A0%95%EA%B8%B0%EB%B0%B0%EB%8B%AC&n_campaign_type=1&NaPm=ct%3Dkb2xmk9s%7Cci%3D0ze0003OUHDsz3Dldvmr%7Ctr%3Dsa%7Chk%3Dc3e9e3af52623100e3540c71e8b09d52665d86c5"><img src="link1.png" alt="link" class="nav_icon"></a>
+        <a href="file:///C:/Users/wendy/Desktop/%EC%9B%B9%ED%94%84%EA%B0%9C%20HTML,%20CSS/RE_HOME.html"><img src="logo3.png" alt="logo" class="nav_icon"></a>
+    </div>
+
+    <div class="logo_top">
+        <img src="logo2.png" alt="logo"  id="logo_p" class="logo">
+        <img src="word logo1.png" alt="word" id="logo_w" class="logo">
+    </div>
+
+    <div class="wrap">
+        <button class="button_ani">질문으로 추천</button>
+        <button class="button_ani">키워드로 검색</button>
+    </div>
+</body>
+</html>

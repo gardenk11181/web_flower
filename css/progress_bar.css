@@ -6,6 +6,7 @@
     right: 0px;
     width: 8vw;
     height: 100%;
+    min-width: 70px;
     /* background-color: #ffe6e6; */
     background-image: url(../dabal_icon/ui_panel.png);
     display: flex;
